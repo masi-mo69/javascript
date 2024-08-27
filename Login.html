@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+  <link href="./css/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="./css/main.css" rel="stylesheet" />
+  <title>project-1</title>
+  <meta name="description" content="project-1" />
+
+</head>
+    <body class="flex items-center justify-center">
+      <div class="bg-white px-12 py-12 rounded relative w-96">
+        <div class="grid gap-5 max-w-sm">
+          <input type="username" placeholder="username" class="username bg-[#F2F2F2] text-left outline-none p-3"/>
+            <span class="username-validation text-red text-center hidden">Must Contain 12 character (Min)</span>
+          <input type="password" placeholder="password" class="password bg-[#F2F2F2] text-left outline-none p-3"/>
+            <span class="password-validation text-red text-center hidden">Must Contain 8 character (Min)</span>  
+          <button class="login bg-[#43A047] text-white p-3">LOGIN</button>
+        </div>
+      </div>
+      <div class="modal bg-red-600 p-3 absolute top-0 right-0 rounded text-white hidden">لطفا اطلاعات را به درستی وارد نمایید</div>
+    </body>
+<script src="js/Login.js" defer></script>
+</html>
